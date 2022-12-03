@@ -1,0 +1,18 @@
+.disclaimer {
+    background: #F9F9F9;
+    opacity: 0.75;
+    border-radius: 18px;    
+    display: flex;
+    padding: 30px 55px;
+    &__heading {
+        @extend %extend-roboto300;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: #242424; 
+    }
+    &__btn {
+        cursor: pointer;
+    }
+}
