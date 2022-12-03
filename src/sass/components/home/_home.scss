@@ -1,0 +1,56 @@
+.home {
+    margin-top: 105px;
+    padding-top: 31px;
+    background-image: url("../images/home/bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right 31px;
+    min-height: 761px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        max-width: 360px;
+    }
+    &__heading {
+        @extend %extend-merriweather700;
+        font-size: 55px;
+        line-height: 100%;
+    }
+    &__list {
+        margin-top: 159px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+    }
+    &__icon {
+        width: 67px;
+        height: 80px;
+    }
+    &__link {
+        @extend %extend-roboto400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #590D56;
+        text-decoration-line: underline;
+        margin-left: 30px;
+    }
+    &__raght {
+        // swiper
+    }
+    &__link-btn {
+        display: inline-block;
+        border: 1px solid #FFFFFF;
+        border-radius: 33.5px;
+        padding: 20px 80px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $color-white;
+    }
+}

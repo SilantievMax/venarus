@@ -23,6 +23,7 @@
         align-items: center;
     }
     &__btn {
+        @extend %extend-roboto500;
         color: $color-white;
         background-color: #620F5F;
         border-radius: 32px;

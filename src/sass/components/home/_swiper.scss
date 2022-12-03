@@ -1,0 +1,30 @@
+.swiper {
+    display: block;
+    width: 100%;
+    &__list {
+        display: block;
+        max-width: 765px;
+        height: 387px;
+        position: relative;
+        margin-top: 102px;
+    }
+    &__item {
+        position: absolute; 
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+    &__prev {
+        background-image: url("../images/home/swiper-btn.svg");
+        margin: 68px;
+        height: 68px;
+        background-repeat: no-repeat;
+    }
+    &__next {
+        background-image: url("../images/home/swiper-btn.svg");
+        margin: 68px;
+        height: 68px;
+        background-repeat: no-repeat;
+    }
+}
