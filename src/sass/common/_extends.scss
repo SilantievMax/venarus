@@ -1,0 +1,25 @@
+%extend-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+%extend-roboto300 {
+    font-family: "Roboto-Light";
+    font-weight: 300;
+}
+
+%extend-roboto400 {
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+}
+
+%extend-roboto500 {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+}
+
+%extend-merriweather300 {
+    font-family: "Merriweather-Bold";
+    font-weight: 700;
+}
