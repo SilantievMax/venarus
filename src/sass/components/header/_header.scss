@@ -1,3 +1,44 @@
 .header {
-    font-size: 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: $bg-color;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__link {
+
+    }
+    &__img {
+
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+    &__btn {
+        color: $color-white;
+        background-color: #620F5F;
+        border-radius: 32px;
+        padding: 13px 24px;
+        margin-right: 53px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    &__burger {
+        cursor: pointer;
+        display: block;
+        width: 66px;
+        min-height: 40.67px;
+        background-image: url("../images/header/burger.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
+

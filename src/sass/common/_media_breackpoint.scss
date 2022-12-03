@@ -1,28 +1,28 @@
-@mixin desktop() {
+@mixin desktop() { //1200
     @media (max-width: $breakpoint_xxl) {
         @content;
     }
 }
 
-@mixin laptop() {
+@mixin laptop() { //1024
     @media (max-width: $breakpoint_xl) {
         @content;
     }
 }
 
-@mixin tablet() {
+@mixin tablet() { //768
     @media (max-width: $breakpoint_md) {
         @content;
     }
 }
 
-@mixin mobile() {
+@mixin mobile() { //576
     @media (max-width: $breakpoint_sm) {
         @content;
     }
 }
 
-@mixin mobile-min() {
+@mixin mobile-min() { //320
     @media (max-width: $breakpoint_xs) {
         @content;
     }

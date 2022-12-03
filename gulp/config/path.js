@@ -24,7 +24,7 @@ export default {
         dest: `${pathDest}/scripts`,
     },
     img: {
-        src: `${pathSrc}/images/*.{png,jpg,jpeg,gif,svg}`,
+        src: `${pathSrc}/images/**/*.{png,jpg,jpeg,gif,svg}`,
         watch: `${pathSrc}/images/**/*.{png,jpg,jpeg,gif,svg}`,
         dest: `${pathDest}/images`,
     },

@@ -1,0 +1,30 @@
+@include tablet {
+    .header {
+        top: auto;
+        bottom: 0;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        &__menu {
+        }
+        &__link {
+    
+        }
+        &__img {
+            width: 135px;
+            min-height: 25px;
+        }
+        &__block {
+        }
+        &__btn {
+            padding: 7.5px 9px;
+            margin-right: 14px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        &__burger {
+            width: 33px;
+            min-height: 20.31px;
+        }
+    }
+    
+}
