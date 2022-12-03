@@ -1,0 +1,42 @@
+.slogans {
+    padding: 103px 0;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        width: 67px;
+    }
+    &__text {
+        @extend %extend-merriweather700;
+        font-size: 16px;
+        line-height: 154.8%;
+        color: #242424;
+        margin-left: 30px;
+        small {
+            cursor: pointer;
+            position: relative;
+            &:hover {
+                &::after {
+                    content: "При наведении на “i” всплывашка с текстом";
+                    position: absolute;
+                    top: -65px;
+                    left: 20px;
+                    width: 200px;
+                    background-color: #fff;
+                }
+            }
+        }
+        small svg {
+            position: absolute;
+            top: -6px;
+            left: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
