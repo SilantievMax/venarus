@@ -1,0 +1,29 @@
+.discount {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #47093E;
+    border-bottom: 1px solid #47093E;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.discount__text {
+    @extend %extend-roboto300;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color: $color-accent;
+    white-space: nowrap;
+    animation: discount__text 10s infinite linear;
+}
+.discount__text:after{
+    content: "получить скидку 10% >>> получить скидку 10% >>> получить скидку 10% >>>";
+}
+@keyframes discount__text{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+}
