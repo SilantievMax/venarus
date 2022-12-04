@@ -6,6 +6,7 @@
     background-color: $bg-color;
     padding-top: 31px;
     padding-bottom: 31px;
+    z-index: 100;
     &__menu {
         display: flex;
         align-items: center;
